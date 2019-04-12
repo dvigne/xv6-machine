@@ -18,16 +18,8 @@ To clone the repository use:
 ```
 git clone https://github.com/dvigne/xv6-machine.git && cd xv6-machine
 ```
-
-### Configuring the box
-Once you have cloned the repository there will be a `Vagrantfile` for configuring the virtual machine and `Code` folder that contains a fresh, working copy of the XV6 operating system.
-
-To run the virtual machine, you must first download the image using the command below:
-```
-vagrant box add dvigne/xv6-machine
-```
 ### Turning on the Lights
-After you have the Vagrant Box Downloaded and shared folders configured go ahead and turn the virtual machine on with:
+Once you have cloned the repository there will be a `Vagrantfile` for configuring the virtual machine and a `Code` folder that contains a fresh, working copy of the XV6 operating system. Go ahead and turn on the box with:
 ```
 vagrant up
 ```
